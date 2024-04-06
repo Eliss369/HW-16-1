@@ -4,6 +4,7 @@
   --black-color: #212121;
   --white-color: #ffff;
   --dark-blue-color: #2f303a;
+  --light-grey-color: #f5f4fa;
 }
 body {
   font-family: "Roboto";
@@ -231,6 +232,50 @@ body {
 }
 
 /* advatages */
+.bg-detail::before {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--light-grey-color);
+  background-image: url(../img/Group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-task::before {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--light-grey-color);
+  background-image: url(../img/clock\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-advice::before {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--light-grey-color);
+  background-image: url(../img/diagram\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-problem::before {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--light-grey-color);
+  background-image: url(../img/astronaut\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .advatages-item {
   color: var(--grey-color);
   font-weight: 400;
